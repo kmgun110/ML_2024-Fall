@@ -29,11 +29,11 @@ The system prints a word to the terminal, accepts user input with Enter submissi
 ---
 
 ## Mid-term Project — UART GUI Control System
-Designed and implemented a PC-to-board control system using a custom SCI-UART message protocol (STX/ETX framing with ASCII fields). :contentReference[oaicite:1]{index=1}  
-The RA6M3 board receives control messages from a provided PC GUI and performs peripheral actions such as GPIO/FND control, switch(interrupt) events, DC motor control, ADC monitoring, and periodic timer-based tasks. :contentReference[oaicite:2]{index=2}  
-The project also supports board-to-PC “update” messages to report current states (e.g., switch events and sensor/ADC status) through UART. :contentReference[oaicite:3]{index=3}
+Designed and implemented a PC-to-board control system using a custom SCI-UART message protocol (STX/ETX framing with ASCII fields).  
+The RA6M3 board receives control messages from a provided PC GUI and performs peripheral actions such as GPIO/FND control, switch(interrupt) events, DC motor control, ADC monitoring, and periodic timer-based tasks.
+The project also supports board-to-PC “update” messages to report current states (e.g., switch events and sensor/ADC status) through UART.
 
 ## Final Project — Elevator Control Library
-Implemented a function-library style final project for an “elevator” system abstraction. :contentReference[oaicite:4]{index=4}  
-The design separates **action functions** (e.g., running DC motor/servo/speaker) and **state functions** (e.g., stop/confirm behaviors), and includes timing/delay handling (tick and delay utilities). :contentReference[oaicite:5]{index=5}  
-Overall goal is to structure the control logic in a real-time friendly way using clear state transitions (IDLE/CONFIRM/RUN/STOP) and reusable driver-style functions. :contentReference[oaicite:6]{index=6}
+Implemented a function-library style final project for an “elevator” system abstraction. 
+The design separates **action functions** (e.g., running DC motor/servo/speaker) and **state functions** (e.g., stop/confirm behaviors), and includes timing/delay handling (tick and delay utilities).
+Overall goal is to structure the control logic in a real-time friendly way using clear state transitions (IDLE/CONFIRM/RUN/STOP) and reusable driver-style functions. 
