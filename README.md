@@ -1,4 +1,4 @@
-# Microprocessor Lab (ICE3029, 2024 Fall)
+# Microprocessor Laboratory (ICE3029, 2024 Fall)
 
 Embedded system implementations and term projects, using a RA6M3 board.
 
